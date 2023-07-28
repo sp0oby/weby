@@ -1,0 +1,231 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #0000FF;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+    align-items: center;
+}
+
+.logo {
+    font-size: 1.5em;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+.hero-section {
+    background-image: url('hero-background.png');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
+    padding: 0 20px;
+}
+
+.hero-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+.hero-section p {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+}
+
+.hero-section button {
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #0000FF;
+    border: none;
+    cursor: pointer;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#expertise {
+    padding: 50px;
+    text-align: center;
+}
+
+.expertise-grid {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.expertise-item {
+    width: 30%;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.expertise-item img {
+    width: 100%;
+}
+
+.expertise-item h3 {
+    margin: 20px 0;
+}
+
+.expertise-item p {
+    color: #333;
+}
+
+@media screen and (max-width: 900px) {
+    .expertise-item {
+        width: 100%;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#about {
+    padding: 50px;
+    text-align: center;
+}
+
+.about-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 40px;
+}
+
+.about-text p {
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.about-text button {
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #0000FF;
+    border: none;
+    cursor: pointer;
+}
+
+.about-image img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media screen and (max-width: 900px) {
+    .about-container {
+        flex-direction: column-reverse;
+    }
+
+    .about-text, .about-image {
+        width: 100%;
+        text-align: center;
+    }
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+#contact {
+    padding: 50px;
+    text-align: center;
+}
+
+.contact-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: start;
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+
+.contact-info {
+    width: 40%;
+}
+
+.contact-info p {
+    color: #333;
+    line-height: 2;
+}
+
+form {
+    width: 50%;
+}
+
+form input[type=text], form input[type=email], form textarea {
+    width: 100%;
+    padding: 15px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+}
+
+form input[type=submit] {
+    padding: 15px 30px;
+    background-color: #0000FF;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+    .contact-container {
+        flex-direction: column;
+    }
+
+    .contact-info, form {
+        width: 100%;
+    }
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    font-size: 1em;
+    color: white;
+    background-color: #0000FF;
+    border: none;
+    text-decoration: none;
+    cursor: pointer;
+}
